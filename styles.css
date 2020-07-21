@@ -1,0 +1,39 @@
+/*cases paires*/
+.box{
+    height: 190;
+    padding: 10px;
+    text-align: center;
+    background-color: #CCC;
+}
+
+/*cases impaires
+.boxGrey{
+    height: 190;
+    padding: 10px;
+    text-align: center;
+    background-color: #AAA;
+}*/
+
+.box:nth-child(odd) {
+    background-color: #AAA;
+}
+
+
+.box.water{
+    height: 190;
+    padding: 10px;
+    text-align: center;
+    background-color: #3A85FF;
+    color : white;
+    
+}
+
+/*
+.box :nth-child(odd) {
+    background-color : #AAA;
+} 
+
+.box : nth-child(even) {
+    background-color : #CCC;
+}
+*/
